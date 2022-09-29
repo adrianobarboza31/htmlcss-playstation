@@ -5,12 +5,19 @@
     --dark-blue:rgba(22,28,59,1);
     --red:rgba(205,61,15,1);
     --lavish-white:rgba(217,218,220,1);
+    --gray:#727272;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .mybg-black{
     background-color: var(--black);
+}
+.myccgray{
+    color: var(--gray);
+}
+.mycc-blu{
+    color:var(--blue);
 }
 .mybg-orange{
     background-color: #CD3D0F;
@@ -54,4 +61,34 @@ header li{
 }
 #hero img{
     width: 20%;
+}
+/* caruosel */
+.giochi img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+#caruosel span{
+    font-size: 13px;
+}
+.tt{
+    width: 55%;
+}
+.dd5{
+    width: calc(100% / 5);
+}
+div.dd5 img{
+    width: 50%;
+    max-width: 50%;
+}
+.ps5 img{
+    width: 100%;
+    max-width: 100%;
+}
+div.dd5 p{
+    padding-top: 0.5rem;
+}
+/* hero2 */
+#hero2{
+    background-image: url("");
 }
