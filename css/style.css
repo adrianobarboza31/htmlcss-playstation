@@ -36,6 +36,10 @@ body{
 .mybg-blue{
     background-color: var(--blue);
 }
+img{
+    width: 100%;
+    max-width: 100%;
+}
 /* header */
 header img{
     width: 80px;
@@ -64,8 +68,6 @@ header li{
 }
 /* caruosel */
 .giochi img{
-    width: 100%;
-    max-width: 100%;
     border-radius: 20px;
 }
 #caruosel span{
@@ -81,14 +83,22 @@ div.dd5 img{
     width: 50%;
     max-width: 50%;
 }
-.ps5 img{
-    width: 100%;
-    max-width: 100%;
-}
 div.dd5 p{
     padding-top: 0.5rem;
 }
 /* hero2 */
 #hero2{
-    background-image: url("");
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#hero2 img{
+    width:200px
+     ;
+}
+/* nuove uscite */
+#nuove-uscite img{
+    border-radius: 20px;
 }
