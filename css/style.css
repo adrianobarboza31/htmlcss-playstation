@@ -118,3 +118,18 @@ div.dd5 p{
 .po{
     width: 13%;
 }
+/* footer */
+footer li{
+    list-style: none;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+footer{
+    background-color: #00439C;
+}
+.yy{
+    width: 50%;
+}
+.footer-bottom img{
+    width: 150px;
+}
