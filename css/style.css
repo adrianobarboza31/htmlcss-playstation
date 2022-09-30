@@ -64,7 +64,7 @@ header img{
     width: 80px;
     padding: 10px 0;
 }
-header li{
+nav li{
     padding-left: 1rem;
 }
 .cambio:hover{
@@ -74,6 +74,10 @@ header li{
     color: black;
 }
 .mysticky{
+    position: sticky;
+    top: 0;
+}
+header{
     position: sticky;
     top: 0;
 }
